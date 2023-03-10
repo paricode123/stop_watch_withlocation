@@ -88,7 +88,7 @@ class _StopwatchPageState extends State<StopwatchPage> {
               _elapsedTime,
               style: TextStyle(fontSize: 50),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 70),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -102,7 +102,7 @@ class _StopwatchPageState extends State<StopwatchPage> {
                     shape: CircleBorder(),
                   ),
                 ),
-                SizedBox(width: 15),
+                SizedBox(width: 55),
                 SizedBox(
                   width: 60,
                   height: 60,
@@ -113,14 +113,14 @@ class _StopwatchPageState extends State<StopwatchPage> {
                     shape: CircleBorder(),
                   ),
                 ),
-                SizedBox(width: 15),
+                SizedBox(width: 55),
                 SizedBox(
                   width: 60,
                   height: 60,
                   child: RaisedButton(
                     onPressed: _resetStopwatch,
                     child: Icon(Icons.refresh, color: Colors.white, size: 30),
-                    color: Colors.grey,
+                    color: Colors.blue,
                     shape: CircleBorder(),
                   ),
                 ),
